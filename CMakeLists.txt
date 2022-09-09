@@ -2,6 +2,10 @@ cmake_minimum_required (VERSION 3.6)
 
 project (Ducker LANGUAGES CXX)
 
+set(Qt5Core_DIR "~/qt/Qt5.12.1/5.12.1/gcc_64/lib/cmake/Qt5Core/")
+set(Qt5_DIR "~/qt/Qt5.12.1/5.12.1/gcc_64/lib/cmake/Qt5/")
+set(QT_QMAKE_EXECUTABLE "~/qt/Qt5.12.1/5.12.1/gcc_64/bin/qmake")
+
 find_package(Qt5 COMPONENTS Gui Widgets REQUIRED)
 link_libraries(Qt5::Gui Qt5::Widgets)
 
