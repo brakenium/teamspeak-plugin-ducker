@@ -37,6 +37,7 @@ instructions for Linux.
 mkdir build32 && pushd build32
 cmake ..
 make
+popd
 mkdir build64 && pushd build64
 cmake ..
 make
